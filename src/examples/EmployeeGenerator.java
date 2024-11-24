@@ -1,11 +1,11 @@
-package examples.stream.max;
+package examples;
 
 import java.util.Arrays;
 import java.util.List;
 
 public class EmployeeGenerator {
 
-    static List<Employee> generateEmployees() {
+    public static List<Employee> generateEmployees() {
         return Arrays.asList(
                 new Employee(1, "First Emp"),
                 new Employee(2, "Second Emp"),

@@ -1,11 +1,14 @@
 package examples.stream.max;
 
+import examples.Employee;
+import examples.EmployeeGenerator;
+
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class LookingACollectorsToMap {
+public class LookingAtCollectorsToMap {
 
     public static void main(String[] args) {
         List<Employee> employees = EmployeeGenerator.generateEmployees();

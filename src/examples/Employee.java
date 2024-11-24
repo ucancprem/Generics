@@ -1,4 +1,4 @@
-package examples.stream.max;
+package examples;
 
 public class Employee {
 

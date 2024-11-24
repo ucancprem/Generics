@@ -1,5 +1,8 @@
 package examples.stream.max;
 
+import examples.Employee;
+import examples.EmployeeGenerator;
+
 import java.util.Comparator;
 import java.util.List;
 
